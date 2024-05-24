@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",   // Set the target ECMAScript version
+        "module": "UMD", // Use CommonJS modules
+        // "outFile": "dist/index.js", // Compile all TypeScript files into a single JS file (optional)
+        "strict": true,      // Enable strict type checking
+        "noImplicitAny": true, // Disallow implicit use of the `any` type
+        "esModuleInterop": true
+    },
+    "include": ["src/**/*"] // Specify the directory containing TypeScript source files
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <textarea name="res" id="res" cols="30" rows="10"></textarea>
+    <script>
+        const res = document.getElementById("res")
+        const params = new URLSearchParams(window.location.search)
+        for (e of params.entries()) {
+            console.log(`${e[0]}: ${e[1]}`)
+            res.append(`${e[0]}: ${e[1]}`)
+        }
+    </script>
+</body>
+</html>

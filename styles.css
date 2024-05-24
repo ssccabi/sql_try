@@ -1,0 +1,31 @@
+[stb$="a"]:hover::after {
+    content: "before";
+    background-color: aqua;
+    width: 100vw;
+    height: 5px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+/* * {
+    margin: 0;
+}
+ */
+
+.parent {
+    position: relative;
+    background-color: yellow;
+}
+.box-one {
+    position: absolute;
+    top: 0px;
+    background-color: red;
+}
+
+.box-two {
+    background-color: blueviolet;
+    border: 10px inset green;
+}
